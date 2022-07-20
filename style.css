@@ -1,0 +1,455 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+main{
+    overflow: hidden;
+    margin-bottom: 100px;
+}
+.main-container{
+    background-color: white;
+    width: 100%;
+}
+/* Banner Styles */
+.banner-container{
+    background: #161616;
+    border-radius: 30px;
+    width: 90%;
+    margin: 0 auto;
+}
+.banner-part{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+.banner-description{
+    /* width: 50%; */
+    margin-right: 10px;
+    width: 531px;
+}
+.first-title{
+    color: white;
+    font-weight: 700;
+    font-size: 70px;
+    margin-left: 10px;
+}
+.text{
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    margin: 10px;
+    padding-bottom: 20px;
+}
+.banner-description a{
+    margin: 10px;
+}
+.button{
+    background: #DD0000;
+    border-radius: 5px;
+    color: white;
+    padding: 16px 25px;
+    text-decoration: none;
+}
+.banner-img img{
+    width: 581px;
+    height: 620px;
+    margin-top: 20px;
+    position: relative;
+    top: 7px;
+}
+
+/* Blogs Styles */
+.main-blogs-container{
+    width: 100%;
+    background-color: white;
+    margin-bottom: 50px;
+}
+.main-blogs{
+    width: 90%;
+    margin: 100px auto;
+}
+
+/* Menu Styles */
+.left-menu{
+    width: 312px;
+    height: 312px;
+    background: #161616;
+    border-radius: 10px;
+    float: left;
+}
+.left-menu .menu{
+    width: 252px;
+    height: 252px;
+    display: block;
+    margin: auto;
+    position: relative;
+    bottom: 20px;
+}
+.left-menu .menu #blog-btn{
+    background: #DD0000;
+}
+.left-menu .menu #blog-btn a{
+    color: white;
+}
+.left-menu .menu #upcoming-btn{
+    background: #DD0000;
+}
+.left-menu .menu #upcoming-btn a{
+    color: white;
+}
+.left-menu .menu li{
+    list-style-type: none;
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 15px 20px;
+    margin-top: 20px;
+    text-align: center; 
+}
+.left-menu .menu li a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+    color: #161616;
+}
+
+/* Blog Right Styles */
+.blogs{
+    float: right;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10;
+    width: 73%;
+    margin-left: 5px;
+}
+.blog{
+    width: 95%;
+    height: 362px;
+    margin-bottom: 15px;
+    border: 2px solid #e2e0e0;
+    border-radius: 10px;
+    padding-bottom: 15px;
+}
+.blog img{
+    width: 100%;
+}
+.blog h3{
+    font-weight: 600;
+    font-size: 18px;
+    padding: 15px;
+    margin-top: 20px;
+}
+.blog-btn{
+    font-weight: 500;
+    font-size: 16px;
+    border: 1px solid #cfcbcb;
+    border-radius: 5px;
+    padding: 5px 15px;
+    position: relative;
+    top: 17px;
+    left: 12px;
+}
+.blog-item{
+    width: 143px;
+    height: 26px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+}
+.blog-item-first, .blog-item-second{
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.blog-item-first img, .blog-item-second img{
+    margin-right: 10px;
+}
+
+/* Upcoming Match Styles */
+.main-upcoming{
+    overflow: hidden;
+    margin-bottom: 100px;
+}
+.blog-match{
+    width: 95%;
+    height: 242px;
+    border: 2px solid #e2e0e0;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.blog-match article{
+    padding: 15px;
+}
+.match-img{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.match-img img{
+    width: 30%;
+    margin-top: 10px;
+}
+.match-img h3{
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+}
+.blog-match h2{
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    padding: 15px;
+}
+.blog-match p{
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Footer Styles */
+footer{
+    margin-top: 10px;
+    width: 100%;
+    height: 350px;
+    background-color: black;
+}
+footer h1{
+    font-weight: 600;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    padding-top: 60px;
+}
+hr{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin-top: 30px;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+footer ul li{
+    list-style-type: none;
+    display: inline;
+    padding: 10px 20px;
+}
+footer ul li a{
+    text-decoration: none;
+    color: white;
+}
+.social-media{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 10px;
+}
+.social-media .fab{
+    width: 20px;
+    height: 20px;
+    border: 2px solid orangered;
+    padding: 5px;
+}
+.social-media a{
+    color: white;
+}
+
+/* Responsive Styles */
+/* Responsive For Mobile Device */
+@media screen and (max-width: 576px) {
+    .main-container{
+        width: 100%;
+    }
+    .banner-container{
+        width: 90%;
+        margin-bottom: 180px;
+        height: auto;
+    }
+    .banner-part{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+    .banner-description{
+        width: 60%;
+        text-align: center;
+        margin: 0 auto;
+        padding-top: 20px;
+    }
+    .first-title{
+        width: 54%;
+        font-weight: 700;
+        font-size: 22px;
+        padding-top: 20px;
+    }
+    .descripton-display{
+        color: white;
+        padding: 15px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        margin-bottom: 15px;
+
+    }
+    .text{
+        display: none;
+    }
+    .banner-img img{
+        width: 100%;
+        height: auto;
+    }
+    .main-blogs{
+        width: 100%;
+    }
+    .blogs{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10;
+        width: 90%;
+        margin-right: 4%;
+    }
+    .blog{
+        height: 420px;
+    }
+    .left-menu{
+        width: 90%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        height: 80px;
+        background-color: white;
+    }
+    .left-menu .menu{
+        width: 95%;
+        position: relative;
+        bottom: 200px;
+        left: 10px;
+    }
+    .left-menu .menu li{
+        padding: 10px 20px;
+        border: 1px solid #d1cdcd;
+        margin-left: 20px;
+    }
+    .view-btn{
+        display: none;
+    }
+    footer{
+        height: auto;
+        padding-bottom: 50px;
+    }
+    hr{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .menu{
+        display: inline;
+        margin-top: 20px;
+    }
+    footer .menu li{
+        margin: 0 auto;
+        display: block;
+        text-align: center;
+    }
+}
+
+/* Responsive For Tablet Device */
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    .main-container{
+        width: 100%;
+    }
+    .banner-container{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .main-blogs{
+        width: 100%;
+    }
+    .blogs{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10;
+        width: 90%;
+        margin-right: 4%;
+    }
+    .display-blog{
+        display: none;
+    }
+    .left-menu{
+        width: 90%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        height: 80px;
+        background-color: white;
+    }
+    .left-menu .menu{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 90%;
+        position: relative;
+        bottom: 160px;
+        left: 15px;
+    }
+    .left-menu .menu li{
+        padding: 15px 30px;
+        border: 1px solid #d1cdcd;
+        margin-left: 20px;
+    }
+    .banner-description{
+        width: 80%;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+    .first-title{
+        font-weight: 700;
+        font-size: 40px;
+    }
+    .descripton-display{
+        color: white;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        padding: 10px;
+        margin-bottom: 20px;
+        margin-right: 6px;
+
+    }
+    .text{
+        display: none;
+    }
+    .banner-img img{
+        width: 100%;
+        height: 420px;
+        margin-top: 20px;
+        position: relative;
+        top: 7px;
+        right: 30px;
+    }
+    .view-btn{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 60px;
+        position: relative;
+        bottom: 60px;
+    }
+    footer .menu{
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 993px){
+    .descripton-display{
+        display: none;
+
+    }
+    .view-btn{
+        display: none;
+    }
+}
