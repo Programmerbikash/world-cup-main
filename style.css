@@ -1,4 +1,11 @@
+/*------------===================================
+                        Fonts
+===================================------------*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/*------------===================================
+        Common Styles and Utilities
+===================================------------*/
 *{
     margin: 0;
     padding: 0;
@@ -14,7 +21,10 @@ main{
     background-color: white;
     width: 100%;
 }
-/* Banner Styles */
+
+/*------------===================================
+                Banner Styles
+===================================------------*/
 .banner-container{
     background: #161616;
     border-radius: 30px;
@@ -63,7 +73,9 @@ main{
     top: 7px;
 }
 
-/* Blogs Styles */
+/*------------===================================
+                Blogs Styles
+===================================------------*/
 .main-blogs-container{
     width: 100%;
     background-color: white;
@@ -74,7 +86,9 @@ main{
     margin: 100px auto;
 }
 
-/* Menu Styles */
+/*------------===================================
+                Menu Styles
+===================================------------*/
 .left-menu{
     width: 312px;
     height: 312px;
@@ -117,7 +131,9 @@ main{
     color: #161616;
 }
 
-/* Blog Right Styles */
+/*------------===================================
+            Blog Right Styles
+===================================------------*/
 .blogs{
     float: right;
     display: grid;
@@ -169,7 +185,9 @@ main{
     margin-right: 10px;
 }
 
-/* Upcoming Match Styles */
+/*------------===================================
+            Upcoming Match Styles
+===================================------------*/
 .main-upcoming{
     overflow: hidden;
     margin-bottom: 100px;
@@ -185,6 +203,7 @@ main{
 }
 .blog-match article{
     padding: 15px;
+    margin: 0 auto;
 }
 .match-img{
     display: flex;
@@ -213,7 +232,9 @@ main{
     padding: 10px;
 }
 
-/* Footer Styles */
+/*------------===================================
+            Footer Styles
+===================================------------*/
 footer{
     margin-top: 10px;
     width: 100%;
@@ -261,8 +282,13 @@ footer ul li a{
     color: white;
 }
 
-/* Responsive Styles */
-/* Responsive For Mobile Device */
+/*------------===================================
+            Responsive Styles
+===================================------------*/
+
+/*------------===================================
+        Responsive For Mobile Device 
+===================================------------*/
 @media screen and (max-width: 576px) {
     .main-container{
         width: 100%;
@@ -358,7 +384,9 @@ footer ul li a{
     }
 }
 
-/* Responsive For Tablet Device */
+/*------------===================================
+        Responsive For Tablet Device 
+===================================------------*/
 @media screen and (min-width: 577px) and (max-width: 992px) {
     .main-container{
         width: 100%;
@@ -406,6 +434,10 @@ footer ul li a{
         padding: 20px;
         margin-bottom: 20px;
     }
+    .blog-match article {
+        padding: 15px;
+        margin: 0 auto;
+    }
     .first-title{
         font-weight: 700;
         font-size: 40px;
@@ -418,7 +450,6 @@ footer ul li a{
         padding: 10px;
         margin-bottom: 20px;
         margin-right: 6px;
-
     }
     .text{
         display: none;
@@ -444,6 +475,9 @@ footer ul li a{
     }
 }
 
+/*------------===================================
+        Responsive For Computer Device 
+===================================------------*/
 @media screen and (min-width: 993px){
     .descripton-display{
         display: none;
